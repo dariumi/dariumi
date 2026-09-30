@@ -1,77 +1,10 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">DARIA Systems — dariumi</title>
-  <desc id="desc">A minimal technical interface header for the GitHub profile of dariumi.</desc>
-  <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="currentColor" stroke-opacity=".055" stroke-width="1"/>
-    </pattern>
-    <style>
-      :root { color: #111827; }
-      .bg { fill: #f7f8fa; }
-      .panel { fill: #ffffff; stroke: #d7dce3; }
-      .line { stroke: #788190; }
-      .muted-line { stroke: #c4cad3; }
-      .text { fill: #111827; }
-      .muted { fill: #6b7280; }
-      .accent { fill: #111827; }
-      .accent-stroke { stroke: #111827; }
-      @media (prefers-color-scheme: dark) {
-        :root { color: #e5e7eb; }
-        .bg { fill: #0b0d10; }
-        .panel { fill: #101318; stroke: #2b313a; }
-        .line { stroke: #8d96a5; }
-        .muted-line { stroke: #303742; }
-        .text { fill: #f2f4f7; }
-        .muted { fill: #8b94a3; }
-        .accent { fill: #f2f4f7; }
-        .accent-stroke { stroke: #f2f4f7; }
-      }
-      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
-    </style>
-  </defs>
-
-  <rect class="bg" width="1200" height="360" rx="22"/>
-  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
-  <rect class="panel" x="28" y="28" width="1144" height="304" rx="16"/>
-
-  <g fill="none" stroke-width="1">
-    <path class="muted-line" d="M70 92H1130"/>
-    <path class="muted-line" d="M70 274H1130"/>
-    <path class="muted-line" d="M828 112V254"/>
-  </g>
-
-  <g>
-    <circle class="accent" cx="72" cy="60" r="4"/>
-    <circle class="muted" cx="90" cy="60" r="4" opacity=".45"/>
-    <circle class="muted" cx="108" cy="60" r="4" opacity=".2"/>
-    <text class="muted" x="130" y="65" font-size="13" letter-spacing="2">PROFILE.NODE // 137631423</text>
-    <text class="muted" x="1030" y="65" font-size="13" text-anchor="end">ONLINE</text>
-    <circle class="accent" cx="1048" cy="60" r="3"/>
-    <text class="muted" x="1130" y="65" font-size="13" text-anchor="end">AMS</text>
-  </g>
-
-  <g>
-    <text class="text" x="70" y="142" font-size="13" letter-spacing="4">DARIA / SYSTEMS INDEX</text>
-    <text class="text" x="70" y="205" font-size="50" font-weight="700" letter-spacing="-2">dariumi</text>
-    <text class="muted" x="72" y="238" font-size="15" letter-spacing="1">LOCAL INTELLIGENCE · PRIVACY INFRASTRUCTURE · INTERFACES</text>
-  </g>
-
-  <g transform="translate(858,126)">
-    <circle class="accent-stroke" cx="65" cy="55" r="34" fill="none" stroke-width="1.5"/>
-    <circle class="accent" cx="65" cy="55" r="4"/>
-    <path class="line" d="M99 55H169M65 21V-2M65 89V112M31 55H5" fill="none"/>
-    <path class="muted-line" d="M89 31l24-24M41 79l-24 24M41 31L17 7M89 79l24 24" fill="none"/>
-    <circle class="accent-stroke" cx="169" cy="55" r="6" fill="none"/>
-    <circle class="accent-stroke" cx="65" cy="-2" r="4" fill="none"/>
-    <circle class="accent-stroke" cx="65" cy="112" r="4" fill="none"/>
-    <text class="muted" x="0" y="151" font-size="11" letter-spacing="2">NODE GRAPH / 04 ACTIVE</text>
-  </g>
-
-  <g>
-    <text class="muted" x="70" y="306" font-size="12" letter-spacing="2">01 DARIA</text>
-    <text class="muted" x="220" y="306" font-size="12" letter-spacing="2">02 VEIL</text>
-    <text class="muted" x="348" y="306" font-size="12" letter-spacing="2">03 DAPHNE</text>
-    <text class="muted" x="500" y="306" font-size="12" letter-spacing="2">04 ARKONOVA</text>
-    <text class="muted" x="1130" y="306" font-size="12" text-anchor="end" letter-spacing="2">BUILD / BREAK / REBUILD</text>
-  </g>
-</svg>
+<title id="title">DARIA Systems — dariumi</title><desc id="desc">A minimal technical interface header for the GitHub profile of dariumi.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="currentColor" stroke-opacity=".055" stroke-width="1"/></pattern>
+<style>:root{color:#111827}.bg{fill:#f7f8fa}.panel{fill:#fff;stroke:#d7dce3}.line{stroke:#788190}.muted-line{stroke:#c4cad3}.text{fill:#111827}.muted{fill:#6b7280}.accent{fill:#111827}.accent-stroke{stroke:#111827}@media(prefers-color-scheme:dark){:root{color:#e5e7eb}.bg{fill:#0b0d10}.panel{fill:#101318;stroke:#2b313a}.line{stroke:#8d96a5}.muted-line{stroke:#303742}.text{fill:#f2f4f7}.muted{fill:#8b94a3}.accent{fill:#f2f4f7}.accent-stroke{stroke:#f2f4f7}}text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}</style></defs>
+<rect class="bg" width="1200" height="360" rx="22"/><rect width="1200" height="360" rx="22" fill="url(#grid)"/><rect class="panel" x="28" y="28" width="1144" height="304" rx="16"/>
+<g fill="none" stroke-width="1"><path class="muted-line" d="M70 92H1130"/><path class="muted-line" d="M70 274H1130"/><path class="muted-line" d="M828 112V254"/></g>
+<g><circle class="accent" cx="72" cy="60" r="4"/><circle class="muted" cx="90" cy="60" r="4" opacity=".45"/><circle class="muted" cx="108" cy="60" r="4" opacity=".2"/><text class="muted" x="130" y="65" font-size="13" letter-spacing="2">PROFILE.NODE // DARIUMI</text><text class="muted" x="1130" y="65" font-size="13" text-anchor="end" letter-spacing="2">SYSTEMS ONLINE</text></g>
+<g><text class="text" x="70" y="142" font-size="13" letter-spacing="4">DARIA / SYSTEMS INDEX</text><text class="text" x="70" y="205" font-size="50" font-weight="700" letter-spacing="-2">dariumi</text><text class="muted" x="72" y="238" font-size="15" letter-spacing="1">LOCAL INTELLIGENCE · PRIVACY INFRASTRUCTURE · INTERFACES</text></g>
+<g transform="translate(858,126)"><circle class="accent-stroke" cx="65" cy="55" r="34" fill="none" stroke-width="1.5"/><circle class="accent" cx="65" cy="55" r="4"/><path class="line" d="M99 55H169M65 21V-2M65 89V112M31 55H5" fill="none"/><path class="muted-line" d="M89 31l24-24M41 79l-24 24M41 31L17 7M89 79l24 24" fill="none"/><circle class="accent-stroke" cx="169" cy="55" r="6" fill="none"/><circle class="accent-stroke" cx="65" cy="-2" r="4" fill="none"/><circle class="accent-stroke" cx="65" cy="112" r="4" fill="none"/><text class="muted" x="0" y="151" font-size="11" letter-spacing="2">NODE GRAPH / 04 ACTIVE</text></g>
+<g><text class="muted" x="70" y="306" font-size="12" letter-spacing="2">01 DARIA</text><text class="muted" x="220" y="306" font-size="12" letter-spacing="2">02 VEIL</text><text class="muted" x="348" y="306" font-size="12" letter-spacing="2">03 DAPHNE</text><text class="muted" x="500" y="306" font-size="12" letter-spacing="2">04 ARKONOVA</text><text class="muted" x="1130" y="306" font-size="12" text-anchor="end" letter-spacing="2">BUILD / BREAK / REBUILD</text></g></svg>
