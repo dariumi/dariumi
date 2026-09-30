@@ -1,0 +1,127 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">dariumi systems map</title>
+<desc id="desc">A minimal visual map of projects, top languages and skills.</desc>
+<defs>
+  <style>
+    .bg{fill:#f7f8fa}.panel{fill:#ffffff;stroke:#d8dde5}.fg{fill:#111318}.muted{fill:#747c89}
+    .line{stroke:#cbd1da}.line2{stroke:#aeb6c2}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}
+    .soft{fill:#eceafd}.softStroke{stroke:#d9d4ff}
+    @media(prefers-color-scheme:dark){
+      .bg{fill:#0b0d10}.panel{fill:#101318;stroke:#2a3039}.fg{fill:#f3f5f7}.muted{fill:#8d95a3}
+      .line{stroke:#2d343e}.line2{stroke:#444d5a}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}
+      .soft{fill:#171525}.softStroke{stroke:#38324f}
+    }
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+  </style>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect class="bg" width="1200" height="760" rx="28"/>
+<rect class="panel" x="28" y="28" width="1144" height="704" rx="22"/>
+
+<!-- header -->
+<text class="muted" x="72" y="78" font-size="13" letter-spacing="4">DARIUMI / SYSTEM MAP</text>
+<text class="fg" x="72" y="132" font-size="42" font-weight="700" letter-spacing="-2">building systems with identity</text>
+<rect class="accent" x="72" y="157" width="78" height="4" rx="2"/>
+
+<!-- system links -->
+<g fill="none" stroke-width="1.5">
+  <path class="line" d="M452 317C600 245 665 207 792 192"/>
+  <path class="line" d="M468 338C650 341 740 348 874 363"/>
+  <path class="line" d="M447 365C575 448 633 486 760 500"/>
+  <path class="line" d="M380 376C278 438 235 474 194 517"/>
+  <circle class="accent" cx="452" cy="317" r="3" stroke="none"/>
+  <circle class="accent" cx="468" cy="338" r="3" stroke="none"/>
+  <circle class="accent" cx="447" cy="365" r="3" stroke="none"/>
+  <circle class="accent" cx="380" cy="376" r="3" stroke="none"/>
+</g>
+
+<!-- DARIA core -->
+<g transform="translate(392 332)">
+  <circle class="soft softStroke" r="118" stroke-width="1.5"/>
+  <circle class="panel accentLine" r="84" stroke-width="1.5"/>
+  <circle class="accentLine" r="54" fill="none" stroke-width="1"/>
+  <circle class="accent" r="7" filter="url(#glow)"/>
+  <path class="line2" d="M0-84V-110M84 0h28M0 84v28M-84 0h-28" fill="none"/>
+  <text class="muted" x="0" y="-17" text-anchor="middle" font-size="11" letter-spacing="3">01 / CORE</text>
+  <text class="fg" x="0" y="16" text-anchor="middle" font-size="28" font-weight="700">DARIA</text>
+  <text class="muted" x="0" y="39" text-anchor="middle" font-size="11">local AI companion</text>
+</g>
+
+<!-- veil -->
+<g transform="translate(842 190)">
+  <circle class="panel line2" r="70" stroke-width="1.5"/>
+  <circle class="accent" cx="-47" cy="-47" r="4"/>
+  <text class="muted" x="0" y="-10" text-anchor="middle" font-size="11" letter-spacing="2">02</text>
+  <text class="fg" x="0" y="18" text-anchor="middle" font-size="22" font-weight="700">veil</text>
+  <text class="muted" x="0" y="39" text-anchor="middle" font-size="10">private network</text>
+</g>
+
+<!-- Daphne -->
+<g transform="translate(930 365)">
+  <rect class="panel line2" x="-78" y="-54" width="156" height="108" rx="24" stroke-width="1.5"/>
+  <rect class="accent" x="-55" y="-31" width="20" height="3" rx="1.5"/>
+  <text class="muted" x="-55" y="-7" font-size="10" letter-spacing="2">03</text>
+  <text class="fg" x="-55" y="22" font-size="21" font-weight="700">Daphne</text>
+  <text class="muted" x="-55" y="43" font-size="10">data tooling</text>
+</g>
+
+<!-- Arkonova -->
+<g transform="translate(810 505)">
+  <path class="panel line2" d="M-72-39L0-70L68-34L58 44L-18 66L-74 24Z" stroke-width="1.5"/>
+  <circle class="accent" cx="0" cy="-70" r="4"/>
+  <text class="muted" x="-1" y="-10" text-anchor="middle" font-size="10" letter-spacing="2">04</text>
+  <text class="fg" x="-1" y="18" text-anchor="middle" font-size="19" font-weight="700">Arkonova</text>
+  <text class="muted" x="-1" y="39" text-anchor="middle" font-size="10">experiments</text>
+</g>
+
+<!-- darko / side node -->
+<g transform="translate(172 528)">
+  <circle class="panel line2" r="50" stroke-width="1.5"/>
+  <circle class="accent" cx="-34" cy="-34" r="3"/>
+  <text class="muted" x="0" y="-4" text-anchor="middle" font-size="9" letter-spacing="2">05</text>
+  <text class="fg" x="0" y="18" text-anchor="middle" font-size="16" font-weight="700">darko</text>
+</g>
+
+<!-- divider -->
+<path class="line" d="M72 598H1128" fill="none"/>
+
+<!-- languages -->
+<g transform="translate(72 628)">
+  <text class="muted" x="0" y="0" font-size="11" letter-spacing="3">TOP LANGUAGES / PUBLIC CODE</text>
+  <g transform="translate(0 22)">
+    <rect class="soft" x="0" y="0" width="506" height="10" rx="5"/>
+    <rect class="accent" x="0" y="0" width="334" height="10" rx="5"/>
+    <rect class="fg" x="334" y="0" width="56" height="10" opacity=".62"/>
+    <rect class="fg" x="390" y="0" width="56" height="10" opacity=".42"/>
+    <rect class="fg" x="446" y="0" width="36" height="10" opacity=".28"/>
+    <rect class="fg" x="482" y="0" width="24" height="10" opacity=".16"/>
+  </g>
+  <text class="fg" x="0" y="62" font-size="11">Python</text>
+  <text class="muted" x="78" y="62" font-size="11">66</text>
+  <text class="fg" x="120" y="62" font-size="11">HTML</text>
+  <text class="muted" x="170" y="62" font-size="11">11</text>
+  <text class="fg" x="212" y="62" font-size="11">JavaScript</text>
+  <text class="muted" x="300" y="62" font-size="11">11</text>
+  <text class="fg" x="342" y="62" font-size="11">Rust</text>
+  <text class="muted" x="382" y="62" font-size="11">7</text>
+  <text class="fg" x="412" y="62" font-size="11">CSS</text>
+  <text class="muted" x="446" y="62" font-size="11">4</text>
+</g>
+
+<!-- skills -->
+<g transform="translate(650 628)">
+  <text class="muted" x="0" y="0" font-size="11" letter-spacing="3">SKILLS / SIGNALS</text>
+  <g transform="translate(0 18)" font-size="11">
+    <rect class="soft softStroke" x="0" y="0" width="92" height="30" rx="15"/><text class="fg" x="46" y="20" text-anchor="middle">Local AI</text>
+    <rect class="soft softStroke" x="100" y="0" width="104" height="30" rx="15"/><text class="fg" x="152" y="20" text-anchor="middle">RAG / Memory</text>
+    <rect class="soft softStroke" x="212" y="0" width="104" height="30" rx="15"/><text class="fg" x="264" y="20" text-anchor="middle">Networking</text>
+    <rect class="soft softStroke" x="324" y="0" width="98" height="30" rx="15"/><text class="fg" x="373" y="20" text-anchor="middle">QUIC / TLS</text>
+    <rect class="soft softStroke" x="0" y="38" width="96" height="30" rx="15"/><text class="fg" x="48" y="58" text-anchor="middle">ML / Data</text>
+    <rect class="soft softStroke" x="104" y="38" width="112" height="30" rx="15"/><text class="fg" x="160" y="58" text-anchor="middle">Desktop UI</text>
+    <rect class="soft softStroke" x="224" y="38" width="112" height="30" rx="15"/><text class="fg" x="280" y="58" text-anchor="middle">Local LLMs</text>
+  </g>
+</g>
+</svg>
