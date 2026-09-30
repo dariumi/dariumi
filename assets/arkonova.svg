@@ -1,0 +1,19 @@
+<svg width="560" height="180" viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arkonova">
+<defs><style>
+.bg{fill:#f7f8fa}.fg{fill:#111318}.muted{fill:#727987}.line{stroke:#cfd4dc}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}
+@media(prefers-color-scheme:dark){.bg{fill:#0b0d10}.fg{fill:#f3f5f7}.muted{fill:#8d95a3}.line{stroke:#2a3039}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+</style></defs>
+<rect class="bg" width="560" height="180" rx="20"/>
+<text class="muted" x="26" y="34" font-size="12" letter-spacing="3">04</text>
+<text class="fg" x="26" y="94" font-size="30" font-weight="700">Arkonova</text>
+<text class="muted" x="26" y="124" font-size="13">experiments / infrastructure</text>
+
+<g transform="translate(446 90)" fill="none" stroke-width="1.5">
+<path class="line" d="M-52-30L0-58L48-22L38 38L-16 56L-54 18Z"/>
+<path class="line" d="M-52-30L38 38M0-58L-16 56M48-22L-54 18"/>
+<circle class="accent" cx="0" cy="-58" r="5" stroke="none"/>
+<circle class="accent" cx="38" cy="38" r="5" stroke="none"/>
+<circle class="accent" cx="-54" cy="18" r="5" stroke="none"/>
+</g>
+</svg>
