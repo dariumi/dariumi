@@ -1,17 +1,17 @@
 <svg width="560" height="180" viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="veil">
 <defs><style>
-.bg{fill:#f7f8fa}.fg{fill:#111318}.muted{fill:#727987}.line{stroke:#cfd4dc}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}
-@media(prefers-color-scheme:dark){.bg{fill:#0b0d10}.fg{fill:#f3f5f7}.muted{fill:#8d95a3}.line{stroke:#2a3039}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}}
+.bg{fill:#f7f8fa}.fg{fill:#111318}.muted{fill:#727987}.line{stroke:#cfd4dc}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}.chip{fill:#eceafd}
+@media(prefers-color-scheme:dark){.bg{fill:#0b0d10}.fg{fill:#f3f5f7}.muted{fill:#8d95a3}.line{stroke:#2a3039}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}.chip{fill:#171525}}
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
 </style></defs>
 <rect class="bg" width="560" height="180" rx="20"/>
 <text class="muted" x="26" y="34" font-size="12" letter-spacing="3">02</text>
-<text class="fg" x="26" y="94" font-size="30" font-weight="700">veil</text>
-<text class="muted" x="26" y="124" font-size="13">private network layer</text>
-
+<rect class="chip" x="26" y="49" width="94" height="24" rx="12"/>
+<text class="fg" x="73" y="65" text-anchor="middle" font-size="11">★ 1</text>
+<text class="muted" x="132" y="65" font-size="11">Rust</text>
+<text class="fg" x="26" y="112" font-size="30" font-weight="700">veil</text>
+<text class="muted" x="26" y="142" font-size="13">private network layer</text>
 <g transform="translate(446 90)" fill="none" stroke-width="1.5">
 <path class="line" d="M-54-34C-10-54 12-6 54-28M-54 2C-8-18 12 30 54 8M-54 38C-10 18 12 66 54 44"/>
-<path class="accentLine" d="M-60-50L60 58M60-50L-60 58"/>
-<circle class="accent" cx="0" cy="4" r="5" stroke="none"/>
-</g>
+<path class="accentLine" d="M-60-50L60 58M60-50L-60 58"/><circle class="accent" cx="0" cy="4" r="5" stroke="none"/></g>
 </svg>
