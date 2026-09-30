@@ -1,0 +1,16 @@
+<svg width="560" height="180" viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DARIA">
+<defs><style>
+.bg{fill:#f7f8fa}.fg{fill:#111318}.muted{fill:#727987}.line{stroke:#cfd4dc}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}
+@media(prefers-color-scheme:dark){.bg{fill:#0b0d10}.fg{fill:#f3f5f7}.muted{fill:#8d95a3}.line{stroke:#2a3039}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+</style></defs>
+<rect class="bg" width="560" height="180" rx="20"/>
+<text class="muted" x="26" y="34" font-size="12" letter-spacing="3">01</text>
+<text class="fg" x="26" y="94" font-size="30" font-weight="700">DARIA</text>
+<text class="muted" x="26" y="124" font-size="13">local AI companion</text>
+
+<g transform="translate(448 90)" fill="none" stroke-width="1.5">
+<circle class="line" r="44"/><circle class="accentLine" r="22"/><circle class="accent" r="5" stroke="none"/>
+<path class="line" d="M0-44V-64M44 0h34M0 44v28M-44 0h-28"/>
+</g>
+</svg>
