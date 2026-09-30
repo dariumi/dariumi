@@ -1,25 +1,28 @@
-<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="dariumi">
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">dariumi</title><desc id="d">Minimal systems profile header</desc>
 <defs>
 <style>
-.bg{fill:#f8f9fb}.fg{fill:#111318}.muted{fill:#7a828e}.line{stroke:#d8dde5}.strong{stroke:#111318}
-@media(prefers-color-scheme:dark){.bg{fill:#0b0d10}.fg{fill:#f2f4f7}.muted{fill:#858e9c}.line{stroke:#2b313a}.strong{stroke:#f2f4f7}}
+:root{color:#0f1115}.bg{fill:#f7f8fa}.fg{fill:#0f1115}.muted{fill:#727987}.line{stroke:#cfd4dc}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}
+@media(prefers-color-scheme:dark){:root{color:#f4f6f8}.bg{fill:#0b0d10}.fg{fill:#f4f6f8}.muted{fill:#8d95a3}.line{stroke:#2a3039}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}}
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
 </style>
 </defs>
-<rect class="bg" width="1200" height="250" rx="22"/>
-<g transform="translate(88,58)" fill="none">
-  <circle class="strong" cx="66" cy="66" r="48" stroke-width="2"/>
-  <circle class="line" cx="66" cy="66" r="30" stroke-width="1"/>
-  <path class="strong" d="M66 18V114M18 66H114" stroke-width="1.4"/>
-  <circle class="fg" cx="66" cy="66" r="5"/>
-  <circle class="fg" cx="66" cy="18" r="3"/>
-  <circle class="fg" cx="114" cy="66" r="3"/>
+<rect class="bg" width="1200" height="360" rx="28"/>
+<g transform="translate(72 78)">
+  <text class="muted" x="0" y="18" font-size="14" letter-spacing="4">SYSTEMS / 00</text>
+  <text class="fg" x="0" y="92" font-size="68" font-weight="700" letter-spacing="-3">dariumi</text>
+  <text class="muted" x="2" y="137" font-size="17">local intelligence · privacy · interfaces</text>
+  <rect class="accent" x="2" y="174" width="92" height="4" rx="2"/>
 </g>
-<text class="muted" x="250" y="92" font-size="13" letter-spacing="4">DARIA / SYSTEMS</text>
-<text class="fg" x="248" y="154" font-size="64" font-weight="700" letter-spacing="-3">dariumi</text>
-<text class="muted" x="252" y="190" font-size="14" letter-spacing="1.4">LOCAL AI · PRIVACY · INTERFACES</text>
-<path class="line" d="M995 58V192" stroke-width="1"/>
-<circle class="fg" cx="1055" cy="78" r="4"/>
-<circle class="line" cx="1055" cy="125" r="18" fill="none" stroke-width="1"/>
-<circle class="fg" cx="1055" cy="172" r="4"/>
+<g transform="translate(830 180)" fill="none" stroke-width="1.5">
+  <circle class="line" cx="0" cy="0" r="74"/>
+  <circle class="line" cx="0" cy="0" r="38"/>
+  <circle class="accentLine" cx="0" cy="0" r="8"/>
+  <path class="line" d="M0-74V-112M74 0h76M0 74v72M-74 0h-68"/>
+  <circle class="accentLine" cx="0" cy="-112" r="5"/>
+  <circle class="accentLine" cx="150" cy="0" r="5"/>
+  <circle class="accentLine" cx="0" cy="146" r="5"/>
+  <circle class="accentLine" cx="-142" cy="0" r="5"/>
+  <path class="accentLine" d="M-52-52L-96-96M52-52l46-46M52 52l48 48M-52 52l-48 48"/>
+</g>
 </svg>
