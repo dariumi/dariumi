@@ -1,17 +1,17 @@
 <svg width="560" height="180" viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Daphne">
 <defs><style>
-.bg{fill:#f7f8fa}.fg{fill:#111318}.muted{fill:#727987}.line{stroke:#cfd4dc}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}.chip{fill:#eceafd}
-@media(prefers-color-scheme:dark){.bg{fill:#0b0d10}.fg{fill:#f3f5f7}.muted{fill:#8d95a3}.line{stroke:#2a3039}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}.chip{fill:#171525}}
+.bg{fill:#f7f8fa}.fg{fill:#111318}.muted{fill:#727987}.line{stroke:#cfd4dc}.accent{fill:#7c6cf2}.accentLine{stroke:#7c6cf2}
+@media(prefers-color-scheme:dark){.bg{fill:#0b0d10}.fg{fill:#f3f5f7}.muted{fill:#8d95a3}.line{stroke:#2a3039}.accent{fill:#9b8cff}.accentLine{stroke:#9b8cff}}
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
 </style></defs>
 <rect class="bg" width="560" height="180" rx="20"/>
 <text class="muted" x="26" y="34" font-size="12" letter-spacing="3">03</text>
-<rect class="chip" x="26" y="49" width="94" height="24" rx="12"/>
-<text class="fg" x="73" y="65" text-anchor="middle" font-size="11">★ 1</text>
-<text class="muted" x="132" y="65" font-size="11">Python</text>
-<text class="fg" x="26" y="112" font-size="30" font-weight="700">Daphne</text>
-<text class="muted" x="26" y="142" font-size="13">data tooling</text>
+<text class="fg" x="26" y="94" font-size="30" font-weight="700">Daphne</text>
+<text class="muted" x="26" y="124" font-size="13">data tooling</text>
 <g transform="translate(446 90)" fill="none" stroke-width="1.5">
-<rect class="line" x="-48" y="-46" width="96" height="24" rx="6"/><rect class="line" x="-38" y="-10" width="76" height="24" rx="6"/>
-<rect class="line" x="-28" y="26" width="56" height="24" rx="6"/><path class="accentLine" d="M-56 0H56"/></g>
+<rect class="line" x="-48" y="-46" width="96" height="24" rx="6"/>
+<rect class="line" x="-38" y="-10" width="76" height="24" rx="6"/>
+<rect class="line" x="-28" y="26" width="56" height="24" rx="6"/>
+<path class="accentLine" d="M-56 0H56"/>
+</g>
 </svg>
